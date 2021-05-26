@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Puzzle</title>
+    <link rel="shortcut icon" href="../public/logo_dg.png" type="image/png">
+    
+    <!--Google Icons-->
+      <link rel = "stylesheet" href = "https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    <!--Materialize CSS-->  
+      <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+    
+    <!--Code JQuery-->  
+      <script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>     
+
+    <!--Code JavaScript-->  
+      <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script> 
+
+    <style>
+        body{
+            background-image: url('../public/bg_galaxy.jpg');
+            background-attachment: fixed;
+        }
+
+        #welcome {
+            font-family: monospace;
+            font-size: 30pt;
+        }
+
+        #navi {
+            background-color: transparent;
+        }
+
+        #menu {
+            background-color: transparent;
+            margin-bottom: 30px;
+        }
+
+        #dark_center {
+            font-family: monospace;
+            font-size: 50pt;
+            margin-top: 10%;
+            margin-bottom: 200px;
+        }
+
+    </style>
+</head>
+<body>
+    <audio src="../public/REPULSIVE - Forgotten [COPYRIGHT FREE HORROR MUSIC].mp3"></audio>
+    
+    <nav id="navi" class="z-depth-0">
+        <div class="nav-wrapper">
+            <a id="welcome" class="brand-logo center">WELCOME</a>
+            <ul class="right">
+                <a id="menu" class="btn hide-on-small-only" data-activates="mobile_menu"><i class="large material-icons">menu</i></a>
+                <a class="btn black hide-on-med-and-up" data-activates="mobile_menu"><i class="large material-icons">menu</i></a>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="side-nav black" id="mobile_menu">
+        <li><a class="white-text waves-effect waves-light center" href="../aboutgame/about.html">About The Game</a></li>
+        <li><a class="white-text waves-effect waves-light center" href="../whoami/who.html">Who Am I?</a></li>
+    </ul>
+
+    <div id="dark_center" class="center">
+        <a class="white-text" href="../howplay/playgame.html">Dark Puzzle</a>
+    </div>
+
+    <footer class="black-text center">
+        Developed by Yago Dias <br>
+        The keys are in the back
+    </footer>
+
+    <script>
+        $(".btn").sideNav();
+    </script>
+</body>
+</html>

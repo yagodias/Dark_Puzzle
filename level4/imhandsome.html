@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Puzzle 4</title>
+    <link rel="shortcut icon" href="../public/logo_dg.png" type="image/x-icon">
+    <!--Google Icons-->
+    <link rel = "stylesheet" href = "https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    <!--Materialize CSS-->  
+      <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+    
+    <!--Code JQuery-->  
+      <script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>     
+
+    <!--Code JavaScript-->  
+      <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script> 
+
+      <style>
+          body {
+              background-image: url('../public/bg_level.png');
+          }
+          
+        #ans {
+            margin-top: 5%;
+        }
+
+        #but {
+            margin-top: 7%;
+        }
+      </style>
+</head>
+<body class="white-text">
+
+    <h1 class="center">
+        What's city?
+    </h1>
+
+    <div id="ans" class="container center">
+        <img src="cat.jpg" alt="Breed of cat" onclick="cat()">
+    </div>
+
+    <div id="but" class="center">
+        <a class="btn red accent-4" onclick="passowrd()"><i class="material-icons">vpn_key</i></a>
+    </div>
+
+    <footer class="center">
+        <a class="white-text" href="https://www.instagram.com/yag0dias/"><i class="material-icons tiny">camera_alt</i>yag0dias</a>
+    </footer>
+
+    <script>
+        
+
+        function passowrd() {
+            var pass = prompt('What is the key?')
+
+            if (pass == 'singapura') {
+                window.location.href = ('../level5/singapura.html')
+            } else {
+                alert('wrong!!!')
+            }
+        }
+
+        function cat() {
+            alert("Beautiful cat")
+        }
+    </script>
+</body>
+</html>

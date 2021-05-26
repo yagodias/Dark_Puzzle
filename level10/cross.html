@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level 10</title>
+    <link rel="shortcut icon" href="../public/logo_dg.png" type="image/x-icon">
+    <!--Google Icons-->
+    <link rel = "stylesheet" href = "https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    <!--Materialize CSS-->  
+      <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+    
+    <!--Code JQuery-->  
+      <script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>     
+
+    <!--Code JavaScript-->  
+      <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
+      <style>
+          body {
+              background-image: url('../public/bg_level.png');
+          }
+
+          #but {
+              margin-top: 8%;
+          }
+
+          #ans {
+              margin-top: 8%;
+          }
+      </style>
+</head>
+<body class="white-text">
+
+    <h3 class="center">
+        Your old keys
+    </h3>
+
+    <h4 id="ans" class="center">
+        1º2º...
+    </h4>
+
+    <div id="but" class="center">
+        <a class="btn red accent-4" onclick="passoword()"><i class="material-icons">vpn_key</i></a>
+    </div>
+
+    <footer class="center">
+        <a class="white-text" href="https://instagram.com/yag0dias/"><i class="tiny material-icons">camera_alt</i>yag0dias</a>
+    </footer>
+
+    <script>
+        function passoword() {
+            var pass = prompt("What is the key?")
+
+            if (pass == "ddysftisc") {
+                window.location.href = "../level11/ddysftisc.html"
+            } else {
+                alert('Wrong!!!')
+            }
+        }
+    </script>
+</body>
+</html>

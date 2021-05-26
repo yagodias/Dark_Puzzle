@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Puzzle 3</title>
+    <link rel="shortcut icon" href="../public/logo_dg.png" type="image/x-icon">
+     <!--Google Icons-->
+     <link rel = "stylesheet" href = "https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+     <!--Materialize CSS-->  
+       <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+     
+     <!--Code JQuery-->  
+       <script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>     
+ 
+     <!--Code JavaScript-->  
+       <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script> 
+   
+    <style>
+        body {
+            background-image: url('../public/bg_level.png');
+        }
+    </style>
+</head>
+<body class="white-text">
+    <h1 class="center">
+        No criativity
+    </h1>
+
+    <div class="container center">
+        <img width="350" src="good_guy.jpg" alt="its me" onclick="passoword()">
+    </div>
+
+    <p class="center">
+        Touch me
+    </p>
+
+    <footer class="center">
+        <a class="white-text" href="https://instagram.com/yag0dias/"><i class="material-icons tiny">camera_alt</i>yag0dias</a>
+    </footer>
+
+    <script>
+        function passoword() {
+            var pass = prompt('You liked me?')
+
+            if (pass == 'yes') {
+                window.location.href = '../level4/imhandsome.html'             
+            } else if (pass == 'no') {
+                window.location.href = ('https://www.youtube.com/watch?v=dQw4w9WgXcQ')
+            } else {
+                alert('yes or no')
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Puzzle 5</title>
+    <link rel="shortcut icon" href="../public/logo_dg.png" type="image/x-icon">
+    <!--Google Icons-->
+    <link rel = "stylesheet" href = "https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    <!--Materialize CSS-->  
+      <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+    
+    <!--Code JQuery-->  
+      <script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>     
+
+    <!--Code JavaScript-->  
+      <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script> 
+
+      <style>
+          body {
+            background-image: url('../public/bg_level.png');
+          }
+
+          #but {
+            margin-top: 10%;
+          }
+
+          #ans {
+            margin-top: 9%;
+          }
+      </style>
+</head>
+<body class="white-text">
+    <h4 id="ans" class="center">
+      01100010 01101001 01101110 01100001 01110010 01111001 
+    </h4>
+
+    <div id="but" class="center">
+      <a class="btn red accent-4" onclick="passoword()"><i class="material-icons">vpn_key</i></a>
+    </div>
+
+    <footer id="footer" class="center">
+      <a href="https://instagram.com/yag0dias/" class="white-text"><i class="material-icons tiny">camera_alt</i>yag0dias</a>
+    </footer>
+
+    <script>
+      function passoword() {
+        var pass = prompt('What is the key?')
+
+        if (pass == "binary") {
+          window.location.href = ('./ze_image/ze.html')
+        } else if (pass == "flor") {
+          window.location.href = ('../level6/flor.html')
+        } else {
+          alert('wrong!!!')
+        }
+      }
+    </script>
+</body>
+</html>
