@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>jan feb</title>
+    <title>Dark Puzzle 7</title>
     <link rel="shortcut icon" href="../public/logo_dg.png" type="image/x-icon">
     <!--Google Icons-->
     <link rel = "stylesheet" href = "https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -16,7 +16,7 @@
 
     <!--Code JavaScript-->  
       <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
-      <style>
+    <style>
         body {
             background-image: url('../public/bg_level.png');
         }
@@ -24,21 +24,22 @@
         #but {
             margin-top: 8%;
         }
-
-        #ans {
-            margin-top: 8%;
-        }
-        </style>
+    </style>
 </head>
-<body>
-    <h1 class="center white-text">
-        JFMAMJ_____D
+<body class="white-text">
+
+    <h1 class="center">
+        September
     </h1>
+
+    <div class="center">
+        <img width="300"src="vitas_7.jpg">
+    </div>
 
     <div id="but" class="center">
         <a class="btn red accent-4" onclick="passoword()"><i class="material-icons">vpn_key</i></a>
     </div>
-    
+
     <footer class="center">
         <a class="white-text" href="https://instagram.com/yag0dias/"><i class="tiny material-icons">camera_alt</i>yag0dias</a>
     </footer>
@@ -47,10 +48,10 @@
         function passoword() {
             var pass = prompt('What is the key?')
 
-            if (pass == "jason") {
-                window.location.href = "../finish/final.html"
+            if (pass == "independence day") {
+                window.location.href = ('../level8/independenceday.html')
             } else {
-                alert('Wrong!!!')
+                alert('wrong!!!')
             }
         }
     </script>

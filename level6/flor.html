@@ -26,18 +26,22 @@
             margin-top: 6%;
         }
 
+        #times_square {
+            font-size: 40px;
+        }
+
         #but {
             margin-top: 7%;
         }
     </style>    
 </head>
 <body class="white-text">
-    <h1 class="center">
+    <h1 class="center transparent-text">
         40°45'28"N 73°59'09"W
     </h1>
 
     <div id="ans" class="center">
-         <i class="material-icons">access_time crop_square</i>
+        <i id="times_square" class="material-icons">access_time crop_square</i>
     </div>
 
     <div id="but" class="center">
@@ -53,7 +57,7 @@
             var pass = prompt('What is the key?')
 
             if (pass == 'times square') {
-                window.location.href = ('../level7/timessquare.html')
+                window.location.href = ('../brazil/timessquare.html')
             } else {
                 alert('wrong!!!')
             }
