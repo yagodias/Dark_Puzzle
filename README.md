@@ -18,5 +18,5 @@ OBS: Ainda está em desenvolvimento, ou seja, pode estar por vim mais leveis ou 
 
 
 
-##### Is coming...
+##### **More to come...**
 
