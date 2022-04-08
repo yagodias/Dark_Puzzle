@@ -19,26 +19,31 @@
     <style>
       #image_ze {
         display: block;
-        margin-left: 42.5%;
+        margin-left: auto;
         margin-right: auto;
       }
 
       #button_back {
-        width: 0px;
+        width: auto;
         margin: 0 auto;
+        text-align: center;
       }
     </style>
 </head>
-<body bgcolor="black">
+<body class="grey darken-4">
 
-    <div id="image_ze">
-      <img class="materialboxed" width="300" src="ze_foto.png">
+    <div>
+      <img id="image_ze" class="materialboxed" width="350" src="ze_foto.png">
     </div>
 
     <br>
   
-    <div id="button_back">
-      <a href="../singapura.html" class="btn red accent-4">Back</a>
+    <div id="button_back" style="font-family: monospace; ">
+      <a href="../singapura.html" class="btn grey darken-3">Back</a>
     </div>
+
+    <script>
+      $('.materialboxed').materialbox();
+    </script>
 </body>
 </html>

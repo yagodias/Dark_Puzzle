@@ -33,7 +33,7 @@
     </h1>
 
     <div class="center">
-        <img width="300"src="vitas_7.jpg">
+        <img class="materialboxed" width="300" src="vitas_7.jpg">
     </div>
 
     <div id="but" class="center">
@@ -54,6 +54,9 @@
                 alert('wrong!!!')
             }
         }
+        $(document).ready(function() {
+            $('.materialboxed').materialbox();
+        })
     </script>
 </body>
 </html>

@@ -6,7 +6,7 @@
 
 
 
-OBS: Ainda está em desenvolvimento, ou seja, pode estar por vim mais leveis ou correções de bugs e talvez uma repaginação. Fique atento. 
+OBS: Ainda está em desenvolvimento, ou seja, pode ser que esteja por vim mais leveis ou correções de bugs, e, talvez uma repaginação. Fique atento!! 
 
 
 
@@ -18,5 +18,5 @@ OBS: Ainda está em desenvolvimento, ou seja, pode estar por vim mais leveis ou 
 
 
 
-##### **More to come...**
+**More to come...**
 
